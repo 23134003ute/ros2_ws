@@ -32,9 +32,9 @@ Dự án này là một workspace ROS 2 cho robot omni, bao gồm các cấu hì
    ```
 5. **Chạy mô phỏng hoặc các launch file:**
    ```bash
-  ros2 launch robot_omni gazebo_control_with_slam.launch.py disable_map_publish:=true -> Chạy Gazebo và Spawn Robot Omni
-  ros2 launch robot_omni navigation2.launch.py -> Chạy NAV2 để điều khiển robot
-  python3 go_to_room.py -> Điều khiển Robot tới số phòng 
+   ros2 launch robot_omni gazebo_control_with_slam.launch.py disable_map_publish:=true -> Chạy Gazebo và Spawn Robot Omni
+   ros2 launch robot_omni navigation2.launch.py -> Chạy NAV2 để điều khiển robot
+   python3 go_to_room.py -> Điều khiển Robot tới số phòng 
    ```
 
 ## Thông tin thêm
