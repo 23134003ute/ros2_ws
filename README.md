@@ -17,7 +17,7 @@ Dự án này là một workspace ROS 2 cho robot omni, bao gồm các cấu hì
 
 ## Hướng dẫn sử dụng
 
-1. **Cài đặt ROS 2** (ví dụ: Humble, Foxy...)
+1. **Cài đặt ROS 2** (Jazzy)
 2. **Clone repository:**
    ```bash
    git clone <repo_url>
@@ -32,7 +32,9 @@ Dự án này là một workspace ROS 2 cho robot omni, bao gồm các cấu hì
    ```
 5. **Chạy mô phỏng hoặc các launch file:**
    ```bash
-   ros2 launch robot_omni <tên_launch_file>.launch.py
+  ros2 launch robot_omni gazebo_control_with_slam.launch.py disable_map_publish:=true -> Chạy Gazebo và Spawn Robot Omni
+  ros2 launch robot_omni navigation2.launch.py -> Chạy NAV2 để điều khiển robot
+  python3 go_to_room.py -> Điều khiển Robot tới số phòng 
    ```
 
 ## Thông tin thêm
@@ -42,7 +44,8 @@ Dự án này là một workspace ROS 2 cho robot omni, bao gồm các cấu hì
 - Thêm mô hình môi trường vào `models/`
 
 ## Thành viên
-Xem file `Members.txt` để biết thông tin thành viên nhóm.
+Lương Gia Bảo - 23134003
+Trịnh Nhựt Phát - 23134044
 
 ---
 
