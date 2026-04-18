@@ -20,7 +20,7 @@ Dự án này là một workspace ROS 2 cho robot omni, bao gồm các cấu hì
 1. **Cài đặt ROS 2** (Jazzy)
 2. **Clone repository:**
    ```bash
-   git clone [<repo_url>](https://github.com/23134003ute/ros2_ws.git)
+   git clone https://github.com/23134003ute/ros2_ws.git
    ```
 3. **Build workspace:**
    ```bash
