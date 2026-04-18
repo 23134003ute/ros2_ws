@@ -9,7 +9,7 @@ def generate_launch_description():
     pkg = get_package_share_directory('robot_omni')
 
     urdf_file = os.path.join(pkg, 'urdf', 'omni_base.urdf')
-    world_file = os.path.join(pkg, 'worlds', 'hospital_full.world')
+    world_file = os.path.join(pkg, 'worlds', 'hospital_aws.world')
     bridge_config = os.path.join(pkg, 'config', 'bridge_config.yaml')
     controller_config = os.path.join(pkg, 'config', 'configuration.yaml')
 

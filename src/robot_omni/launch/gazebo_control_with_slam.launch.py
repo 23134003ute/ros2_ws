@@ -173,11 +173,11 @@ def generate_launch_description():
 
     # ====================== DELAYS ======================
     delayed_spawn = TimerAction(period=20.0, actions=[spawn_robot])
-    delayed_bridge = TimerAction(period=5.0, actions=[bridge])
-    delayed_odometry_to_tf = TimerAction(period=6.0, actions=[odometry_to_tf])
-    delayed_controllers = TimerAction(period=8.0, actions=[joint_state_broadcaster, mobile_base_controller])
+    delayed_bridge = TimerAction(period=22.0, actions=[bridge])
+    delayed_odometry_to_tf = TimerAction(period=25.0, actions=[odometry_to_tf])
+    delayed_controllers = TimerAction(period=27.0, actions=[joint_state_broadcaster, mobile_base_controller])
     delayed_slam = TimerAction(
-        period=12.0,
+        period=30.0,
         actions=[cartographer_node, occupancy_grid_node]
     )
 
